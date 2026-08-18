@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giscus 评论区示例</title>
+
+    <style>
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        article {
+            min-height: 400px;
+        }
+
+        .comment-container {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+<article>
+    <h1>我的博客文章</h1>
+
+    <p>
+        这里是博客正文内容。
+    </p>
+
+    <p>
+        Giscus 评论区通常放在文章正文结束之后。
+    </p>
+</article>
+
+<!-- Giscus 评论区 -->
+<div class="comment-container">
+    <h2>评论</h2>
+
+    <script src="https://giscus.app/client.js"
+            data-repo="01Petard/GiscusDiscussions"
+            data-repo-id="R_kgDOT6zCAg"
+            data-category="General"
+            data-category-id="DIC_kwDOT6zCAs4DDjZi"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="zh-CN"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+</body>
+</html>
