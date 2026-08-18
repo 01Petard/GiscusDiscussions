@@ -1,3 +1,7 @@
+## 如何获取评论区配置？
+配置获取地址：[https://giscus.app/zh-CN](https://giscus.app/zh-CN)
+
+## 如何运行Demo查看评论区？
 执行：
 ```python
 
