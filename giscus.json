@@ -1,6 +1,6 @@
 {
   "origins": [
-    "https://www.bugstack.top"
+    "https://doc.bugstack.top"
   ],
   "originsRegex": [
     "http://localhost:[0-9]+"
